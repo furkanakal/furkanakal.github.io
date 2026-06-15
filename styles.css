@@ -210,6 +210,30 @@ a:hover {
   color: inherit;
 }
 
+.card--compact .card__body {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+}
+
+.card--compact .card__body h3 {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.card__inline-play {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--color-text-muted);
+  transition: all var(--transition);
+}
+
+.card--compact:hover .card__inline-play {
+  color: var(--color-accent);
+}
+
 .card__thumb {
   aspect-ratio: 3 / 2;
   background: linear-gradient(135deg, var(--color-bg) 0%, #1a1a2e 100%);
