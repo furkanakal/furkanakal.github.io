@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furkan — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Furkan Akal</a>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#blog-posts">Blog Posts</a></li>
+          <li><a href="#research-papers">Research Papers</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#github">GitHub</a></li>
+          <li><a href="#positions">Positions</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Furkan</span></h1>
+      <p class="tagline">Researcher and technical content creator.</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- Videos -->
+    <section id="videos" class="section">
+      <div class="container">
+        <h2>Videos</h2>
+        <div class="card-grid">
+          <a href="https://x.com/EncryptOnchain/status/1902721797772005801/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>TFHE #1 | Intro and Morphology of Ciphertexts</h3>
+            </div>
+          </a>
+          <a href="https://x.com/EncryptOnchain/status/1909622272173703237/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>TFHE #2 | Linear Operations on GLWE Ciphertexts</h3>
+            </div>
+          </a>
+          <a href="https://x.com/EncryptOnchain/status/1912190850508939301/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>TFHE #3 | Sample Extraction Procedure</h3>
+            </div>
+          </a>
+          <a href="https://x.com/EncryptOnchain/status/1925916434791612919/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>TFHE #4 | Making a Private Setup Public</h3>
+            </div>
+          </a>
+          <a href="https://x.com/EncryptOnchain/status/1928459434117796291/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>Garbled Circuits</h3>
+            </div>
+          </a>
+          <a href="https://x.com/EncryptOnchain/status/1939689241425887620/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>How Does Nillion Work?</h3>
+            </div>
+          </a>
+          <a href="https://x.com/inconetwork/status/2047276636551127275/video/1" class="card card--link" target="_blank" rel="noopener">
+            <div class="card__thumb">
+              <svg class="card__play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </div>
+            <div class="card__body">
+              <h3>Google's Quantum Paper</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Posts -->
+    <section id="blog-posts" class="section section--alt">
+      <div class="container">
+        <h2>Blog Posts</h2>
+        <div class="list">
+          <article class="list-item">
+            <time>Jan 7, 2026</time>
+            <div>
+              <h3><a href="https://furkanakal.com/exploring-kyber-constructing-a-post-quantum-kem" target="_blank" rel="noopener">Exploring Kyber: Constructing a Post-Quantum KEM</a></h3>
+              <p>Deep dive into key-encapsulation mechanisms and the most mature post-quantum scheme.</p>
+              <span class="tag">Post-Quantum Cryptography</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Oct 7, 2025</time>
+            <div>
+              <h3><a href="https://furkanakal.com/quantum-key-distribution-the-bb84-protocol" target="_blank" rel="noopener">Exploring Quantum Key Distribution: The BB84 Protocol</a></h3>
+              <p>An introduction to quantum key distribution and the foundational BB84 protocol.</p>
+              <span class="tag">Quantum Cryptography</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Dec 27, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/ciphertext-compression-tfhe-digest-1" target="_blank" rel="noopener">Ciphertext Compression | TFHE Digest #1</a></h3>
+              <p>First entry in the TFHE digest series, covering ciphertext compression techniques.</p>
+              <span class="tag">FHE</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Mar 1, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/exploring-zama" target="_blank" rel="noopener">Exploring Zama: Building Confidential Smart Contracts w/ fhEVM</a></h3>
+              <p>Building encrypted smart contracts using Zama's fhEVM framework.</p>
+              <span class="tag">Encrypted Smart Contracts</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Feb 29, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/secp256k1-curve-part-1-fundamentals-key-pair-generation" target="_blank" rel="noopener">secp256k1 Curve | Fundamentals &amp; Key-Pair Generation</a></h3>
+              <p>Exploring the secp256k1 elliptic curve and how key pairs are generated.</p>
+              <span class="tag">Elliptic Curve Cryptography</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Feb 5, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/fundamental-concepts-elliptic-curve-cryptography" target="_blank" rel="noopener">Preliminary Knowledge Required for Studying Elliptic Curve Cryptography</a></h3>
+              <p>A smooth introduction to fundamental concepts in elliptic curve cryptography.</p>
+              <span class="tag">Elliptic Curve Cryptography</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Jan 30, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/part-3-public-private-keys-rsa-encryption-public-key-cryptography" target="_blank" rel="noopener">Part 3: Public / Private Keys &amp; RSA Encryption | Public-Key Cryptography</a></h3>
+              <p>How RSA encryption works with public and private key pairs.</p>
+              <span class="tag">RSA Encryption</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Jan 28, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/prime-numbers-public-key-cryptography" target="_blank" rel="noopener">Part 2: Prime Numbers | Public-Key Cryptography</a></h3>
+              <p>The role of prime numbers in public-key cryptographic systems.</p>
+              <span class="tag">Cryptography</span>
+            </div>
+          </article>
+          <article class="list-item">
+            <time>Jan 28, 2024</time>
+            <div>
+              <h3><a href="https://furkanakal.com/introduction-public-key-cryptography" target="_blank" rel="noopener">Part 1: Introduction | Public-Key Cryptography</a></h3>
+              <p>An introduction to the fundamentals of public-key cryptography.</p>
+              <span class="tag">Cryptography</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Papers -->
+    <section id="research-papers" class="section section--alt">
+      <div class="container">
+        <h2>Research Papers</h2>
+        <div class="list">
+          <article class="list-item">
+            <div class="paper-venue">Inco &amp; Predicate</div>
+            <div>
+              <h3><a href="https://www.inco.org/privacy-and-compliance-report" target="_blank" rel="noopener">Navigating Privacy and Compliance in Blockchain Systems</a></h3>
+              <p class="authors">Inco, Predicate</p>
+              <p>A framework for institutions looking to bring their operations onchain — the industry's first comprehensive framework for evaluating how privacy protocols balance confidentiality with compliance.</p>
+              <div class="paper-links">
+                <a href="https://www.inco.org/privacy-and-compliance-report" target="_blank" rel="noopener" class="btn btn--small">Read</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Talks -->
+    <section id="talks" class="section">
+      <div class="container">
+        <h2>Talks</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card__body">
+              <h3>Crash Course in TFHE</h3>
+              <p class="card__venue">FHE Summit</p>
+              <span class="tag">English</span>
+              <div class="card__actions">
+                <a href="https://www.youtube.com/watch?v=QoQa7CHxx2E&t=844s&pp=ygULZnVya2FuIGFrYWzSBwkJBAsBhyohjO8%3D" target="_blank" rel="noopener" class="btn btn--small btn--outline">Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3>MPC Decryption in fhEVMs</h3>
+              <p class="card__venue">FHE Summit II</p>
+              <span class="tag">English</span>
+              <div class="card__actions">
+                <a href="https://www.youtube.com/watch?v=83H-NIIgDcU&t=629s&pp=ygULZnVya2FuIGFrYWw%3D" target="_blank" rel="noopener" class="btn btn--small btn--outline">Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3>Transciphering in FHE</h3>
+              <p class="card__venue">Cryptist 2025</p>
+              <span class="tag">English</span>
+              <div class="card__actions">
+                <a href="https://www.youtube.com/watch?v=fHaFFBZ2d3U&pp=ygULZnVya2FuIGFrYWw%3D" target="_blank" rel="noopener" class="btn btn--small btn--outline">Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3>Confidential ERC20</h3>
+              <p class="card__venue">ETH Belgrade</p>
+              <span class="tag">English</span>
+              <div class="card__actions">
+                <a href="https://www.youtube.com/watch?v=KftgtIny6Nk&t=487s&pp=ygULZnVya2FuIGFrYWw%3D" target="_blank" rel="noopener" class="btn btn--small btn--outline">Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3>Enabling FHE Confidential Compute</h3>
+              <p class="card__venue">ProtoLayers Conference</p>
+              <span class="tag">English</span>
+              <div class="card__actions">
+                <a href="https://www.youtube.com/watch?v=vT5nfDLAxgQ&pp=ygULZnVya2FuIGFrYWw%3D" target="_blank" rel="noopener" class="btn btn--small btn--outline">Video</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__body">
+              <h3>FHE 101</h3>
+              <p class="card__venue">ODTU Blockchain Days</p>
+              <span class="tag tag--alt">Turkish</span>
+              <div class="card__actions">
+                <a href="https://www.youtube.com/watch?v=sqfIDyKQBzE&pp=ygULZnVya2FuIGFrYWw%3D" target="_blank" rel="noopener" class="btn btn--small btn--outline">Video</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Repos -->
+    <section id="github" class="section section--alt">
+      <div class="container">
+        <h2>GitHub Repos</h2>
+        <div class="card-grid">
+          <a href="https://github.com/furkanakal/Verifiable-FHE" class="card card--link card--repo" target="_blank" rel="noopener">
+            <div class="card__body">
+              <div class="repo-header">
+                <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+                <h3>Verifiable-FHE</h3>
+              </div>
+              <p>Plonky2 implementations to prove FHE operations.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="repo-lang-dot"></span>Rust</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/furkanakal/secp256k1" class="card card--link card--repo" target="_blank" rel="noopener">
+            <div class="card__body">
+              <div class="repo-header">
+                <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+                <h3>secp256k1</h3>
+              </div>
+              <p>Basic Rust implementation of the secp256k1 curve.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="repo-lang-dot"></span>Rust</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/furkanakal/Elliptic-Curve-Arithmetic" class="card card--link card--repo" target="_blank" rel="noopener">
+            <div class="card__body">
+              <div class="repo-header">
+                <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+                <h3>Elliptic-Curve-Arithmetic</h3>
+              </div>
+              <p>Elliptic curve arithmetic operations in Rust.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="repo-lang-dot"></span>Rust</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/furkanakal/Shamir-Secret-Sharing" class="card card--link card--repo" target="_blank" rel="noopener">
+            <div class="card__body">
+              <div class="repo-header">
+                <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+                <h3>Shamir-Secret-Sharing</h3>
+              </div>
+              <p>Basic Shamir's secret sharing implementation.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="repo-lang-dot"></span>Rust</span>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/furkanakal/RSA-Cryptography" class="card card--link card--repo" target="_blank" rel="noopener">
+            <div class="card__body">
+              <div class="repo-header">
+                <svg class="repo-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+                <h3>RSA-Cryptography</h3>
+              </div>
+              <p>RSA cryptography implementation in Rust.</p>
+              <div class="repo-meta">
+                <span class="repo-lang"><span class="repo-lang-dot"></span>Rust</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Previous Positions -->
+    <section id="positions" class="section">
+      <div class="container">
+        <h2>Previous Positions</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2024 — May 2026</span>
+              <h3>Researcher</h3>
+              <p class="timeline-org">Inco</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Sep 2022 — Oct 2023</span>
+              <h3>Blockchain Data Engineer</h3>
+              <p class="timeline-org">Datai (ex-Merlin by VALK)</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Furkan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
