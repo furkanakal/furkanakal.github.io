@@ -211,12 +211,17 @@ a:hover {
 }
 
 .card__thumb {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 3 / 2;
   background: linear-gradient(135deg, var(--color-bg) 0%, #1a1a2e 100%);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card__play-icon--small {
+  width: 32px;
+  height: 32px;
 }
 
 .card__thumb--vertical {
@@ -506,6 +511,39 @@ a:hover {
 .timeline-content p:last-child {
   color: var(--color-text-muted);
   font-size: 0.9rem;
+}
+
+/* Contact */
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  font-size: 0.95rem;
+  transition: all var(--transition);
+}
+
+.contact-item:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  box-shadow: 0 0 0 1px var(--color-accent), 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--color-accent);
 }
 
 /* Footer */
