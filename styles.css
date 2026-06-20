@@ -540,6 +540,12 @@ a:hover {
   cursor: pointer;
 }
 
+.timeline-degree {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
 .timeline-content p:last-child {
   color: var(--color-text-muted);
   font-size: 0.9rem;
